@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=":+vcT=.olIjpoHh=SomT">valor</variable></variables><block type="device_forever" id="Dw0:vk/!!P~1NOY|#t*]" x="250" y="-28"><statement name="HANDLER"><block type="variables_set" id="ES~-U^tJ7nr$b)bP.e93"><field name="VAR" id=":+vcT=.olIjpoHh=SomT">valor</field><value name="VALUE"><shadow type="math_number" id="679|Gb@!BKd@Q$iahe;;"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="oRsG@X?Trs1A1SrbX.0I"></block></value><next><block type="controls_if" id="K:])yq}Ua2+2_I`tSnb!"><mutation elseif="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="HvvmwoHE,`iloXC_e94="><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="bWhtxs-.#76]{^sPGp2q"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="D6^OWWR1=RqK*sIt4Aom"><field name="NUM">0</field></shadow><block type="variables_get" id="S9.]j^#L3(KPTZ]Mm~{L"><field name="VAR" id=":+vcT=.olIjpoHh=SomT">valor</field></block></value><value name="B"><shadow type="math_number" id="Dia1I!(v+XYIz/b7eyIU"><field name="NUM">150</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="g#az|jxD0Y[:=V{aWYEQ"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="music_playable_play" id="Vwy_T~+%)_m^kVV]o7oB"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="%o-iGXsji0)yWLZ|L2J!"><value name="melody"><shadow type="melody_editor" id="TRK+/5Za.Z_8:%Nkfp@h"><field name="melody">"C D E F G A B C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="YNuo%{wJ4sCvH|7d4x?%"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">160</field></shadow></value></shadow></value></block></next></block></statement><value name="IF1"><shadow type="logic_boolean" id="[,cR_WVlcaY$tDB(3X|f"><field name="BOOL">TRUE</field></shadow></value><statement name="DO1"><block type="device_show_leds" id="D935*04#E+,SZ:a!`y2#"><field name="LEDS">`
+        # # . # # 
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        # # . # #
+        `</field></block></statement></block></next></block></statement></block><block type="pxt-on-start" id="jR:=(Fsh~vJj}KYVnCBo" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="/1;DO7wjDMJz/Y+C:awH"><field name="VAR" id=":+vcT=.olIjpoHh=SomT">valor</field><value name="VALUE"><shadow type="math_number" id="EnIXgnk=FBSiuvzntcWj"><field name="NUM">0</field></shadow></value></block></statement></block></xml>
